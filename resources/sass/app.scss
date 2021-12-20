@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+.btn {
+  @apply inline-block uppercase p-4 font-bold rounded ring ring-opacity-20;
+}
+
+.btn-gradient-blue {
+  @apply bg-gradient-to-r from-green-400 to-blue-500 text-white hover:from-pink-500 hover:to-yellow-500 ring-blue-200;
+}
+
+.btn-gradient-blue:hover{
+  @apply ring-pink-200;
+}
+
+
+
+@import 'tailwindcss/utilities';
+
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+
